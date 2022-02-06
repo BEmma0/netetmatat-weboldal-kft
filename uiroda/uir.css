@@ -30,9 +30,13 @@ body{
     width: 100%;
 }
 
+.margok{
+    margin-bottom: 75px;
+}
 
-
-
+.image-card{
+    height: 50%px;
+}
 
 
 

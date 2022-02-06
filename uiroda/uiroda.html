@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="uir.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-dark">
+  <div class="margok">
+    <nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
         <a class="navbar-brand"><img style="border-radius: 20px;" class="ms-1" src="logo.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -22,8 +23,8 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle drop text-light" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Legördülős cucc</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item nav-item nav-link" href="#ha oldalon belül, kell a #jel">egy</a></li>
-                <li><a class="dropdown-item nav-item nav-link" href="#">ketto</a></li>
+                <li><a class="dropdown-item nav-item nav-link" href="#egy">egy</a></li>
+                <li><a class="dropdown-item nav-item nav-link" href="#ketto">ketto</a></li>
                 <li><a class="dropdown-item nav-item nav-link" href="#">hamrom</a></li>
               </ul>
             </li>
@@ -31,6 +32,7 @@
           </div>
         </div>
     </nav>
+  </div>
 
     <header class="container-fluid">
       <div id="demo" class="carousel slide" data-ride="carousel">
@@ -41,12 +43,12 @@
           <li data-target="#demo" data-slide-to="2"></li>
         </ul>      
         <!-- The slideshow -->
-        <div class="carousel-inner">
+        <div class="carousel-inner ">
           <div class="carousel-item active csuszkepek">
-            <img src="silco.gif">
+            <img src="car.gif">
           </div>
           <div class="carousel-item csuszkepek">
-            <img src="silco.gif">
+            <img src="plane.gif">
           </div>
           <div class="carousel-item csuszkepek">
             <img src="silco.gif">
@@ -64,15 +66,16 @@
     <div class="container">
       <div class="row">
 
-        <div class="col-12 my-4">
-          <h2 class="text-center">Alcím</h2>
+        <div id="egy" class="col-12 d-block my-4">
+          <h2 class="text-center">Kínálatunk</h2>
         </div>
 
-        <div class="col-lg-3 col-md-4 col-sm-6 my-2">
+
+        <div class="col-lg-4 col-md-4 col-sm-6 my-2">
           <div class="card" >
             <div class="zoom-effect-container">
               <div class="image-card">
-                <img src="zed.gif" class="card-img-top" alt="...">
+                <img src="holloko.jpg" class="card-img-top" alt="...">
               </div>
             </div>
               <div class="card-body">
@@ -81,11 +84,11 @@
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-4 col-sm-6 my-2">
+        <div class="col-lg-4 col-md-4 col-sm-6 my-2">
           <div class="card" >
             <div class="zoom-effect-container">
               <div class="image-card">
-                <img src="zed.gif" class="card-img-top" alt="...">
+                <img src="view.jpg" class="card-img-top" alt="...">
               </div>
             </div>
             <div class="card-body">
@@ -94,11 +97,11 @@
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-4 col-sm-6 my-2">
+        <div class="col-lg-4 col-md-4 col-sm-6 my-2">
           <div class="card" >
             <div class="zoom-effect-container">
               <div class="image-card">
-                <img src="zed.gif" class="card-img-top" alt="...">
+                <img src="roma.jpg" class="card-img-top" alt="...">
               </div>
             </div>
             <div class="card-body">
@@ -107,44 +110,6 @@
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-4 col-sm-6 my-2">
-          <div class="card" >
-            <div class="zoom-effect-container">
-              <div class="image-card">
-                <img src="zed.gif" class="card-img-top" alt="...">
-              </div>
-            </div>
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4 col-sm-6 my-2">
-          <div class="card" >
-            <div class="zoom-effect-container">
-              <div class="image-card">
-                <img src="zed.gif" class="card-img-top" alt="...">
-              </div>
-            </div>
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4 col-sm-6 my-2">
-          <div class="card" >
-            <div class="zoom-effect-container">
-              <div class="image-card">
-                <img src="zed.gif" class="card-img-top" alt="...">
-              </div>
-            </div>
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
 
       </div>
     </div>
@@ -154,7 +119,7 @@
       <p>dolgok</p>
     </div>
 
-      <div class="container-fluid road">
+      <div  class="container-fluid road">
         <h3 class="text-center miert">Miért minket válasszon?<h3>
       </div>
 
