@@ -1,6 +1,7 @@
 body{
    background-color: rgb(216, 216, 216); 
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
 }
 
 .road{
@@ -37,6 +38,16 @@ body{
 .image-card{
     height: 50%px;
 }
+
+.cucc{
+    color: black;
+}
+
+:hover.reszek{
+    background-color: grey;
+}
+
+
 
 
 
