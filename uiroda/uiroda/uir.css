@@ -119,3 +119,23 @@ p{
 .card:hover .card-body{
     background-color: rgb(166, 227, 255);
 }
+
+.img_wrap:hover .img_desc{
+    visibility: visible;
+    opacity: 1;
+}
+
+.img_desc {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 150px;
+    text-align: center;
+    padding-top: 650px;
+}
